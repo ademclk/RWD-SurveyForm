@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D Survey</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1 id="title">Developer Survey 2022</h1>
+  <p id="description">This survey will help us to understand most popular things among developers.</p>
+  <form id="survey-form">
+    <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+    <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+    <label id="number-label">Age: <input id="number" type="number" placeholder="Enter your age" min="18" max="80"></label>
+    <select id="dropdown">
+      <option value="">(Please select your favorite)</option>
+      <option value"1">C/C++</option>
+      <option value"2">Python</option>
+      <option value"3">Java</option>
+      <option value"4">Ruby</option>
+      <option value"5">Rust</option>
+      <option value"6">Assembly</option>
+    </select>
+    <label><input type="radio" name="type" value="1" class="inline"> Student</label>
+    <label><input type="radio" name="type" value="2" class="inline"> Developer</label>
+    <label><input type="checkbox" value="terms" class="cbox" required> I read and accept the terms.</label>
+    <label><input type="checkbox" value="terms" class="cbox"> I want to receive newsletter.</label>
+    <label><input type="checkbox" value="terms" class="cbox"> I know how to center a div.</label>
+    <textarea name="review" placeholder="I'm enjoying this!"></textarea>
+  </form>
+    <label><input id="submit" type="submit"></input></label>
+</body>
+</html>
